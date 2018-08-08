@@ -10,9 +10,9 @@ var fs = require('fs');
 
 var server = http.createServer(function(req,res){
     console.log('Request made to :'+req.url);
-    res.writeHead(200,{'Content-Type':'text/plain'});
-    var myRreadStream = fs.createReadStream(__dirname+'/readMe.txt','utf8');
-    var myWriteStream = fs.createWriteStream(__dirname+'/writeStream.txt');
+    res.writeHead(200,{'Content-Type':'text/html'});
+    var myRreadStream = fs.createReadStream(__dirname+'/practice.html','utf8');
+   // var myWriteStream = fs.createWriteStream(__dirname+'/writeStream.txt');
     myRreadStream.pipe(res);
    // res.end('Welcome Prafull...');
 });
