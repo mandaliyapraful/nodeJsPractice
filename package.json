@@ -1,0 +1,28 @@
+{
+  "name": "nodejspractice",
+  "version": "1.0.0",
+  "description": "Node Practice",
+  "main": "expressRouting.js",
+  "dependencies": {
+    "ejs": "^2.6.1",
+    "express": "^4.16.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mandaliyapraful/nodeJsPractice.git"
+  },
+  "keywords": [
+    "Node",
+    "Practice"
+  ],
+  "author": "Praful Mandaliya",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mandaliyapraful/nodeJsPractice/issues"
+  },
+  "homepage": "https://github.com/mandaliyapraful/nodeJsPractice#readme"
+}
